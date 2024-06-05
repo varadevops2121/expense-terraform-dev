@@ -1,0 +1,19 @@
+variable "project_name" {
+    default = "expense"
+}
+
+variable "environment" {
+    default = "dev"
+}
+
+variable "common_tags" {
+    default = {
+        Project = "exppense"
+        Environment = "dev"
+        Terraform = "true"
+    }
+  
+}
+variable "zone_name" {
+  default = "b12nagafacebook.xyz"
+}
